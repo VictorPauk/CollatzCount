@@ -40,8 +40,8 @@ static constexpr auto qt_meta_stringdata_ZN10MainWindowE = QtMocHelpers::stringD
     "MainWindow",
     "stopSignal",
     "",
-    "on_Start_button_clicked",
-    "on_Stop_button_clicked",
+    "StartButtonClicked",
+    "StopButtonClicked",
     "finishedCalculation",
     "maxNum",
     "maxSteps",
@@ -94,9 +94,9 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>,
         // method 'stopSignal'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_Start_button_clicked'
+        // method 'StartButtonClicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_Stop_button_clicked'
+        // method 'StopButtonClicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'finishedCalculation'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
@@ -113,8 +113,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->stopSignal(); break;
-        case 1: _t->on_Start_button_clicked(); break;
-        case 2: _t->on_Stop_button_clicked(); break;
+        case 1: _t->StartButtonClicked(); break;
+        case 2: _t->StopButtonClicked(); break;
         case 3: _t->finishedCalculation((*reinterpret_cast< std::add_pointer_t<qlonglong>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<qlonglong>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[3]))); break;
         default: ;
         }
